@@ -1,20 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Content from './components/Contact';
-import { useState } from 'react';
+import React from 'react';
+import PageLoader from './pageLoader';
+// import './app.css';
 
-
-function App() {
-  const [page, setPage] = useState('Home')
+export default function App() {
   return (
-    <div className="App">
-      <Header state={{page,setPage}}/>
-      <Content state={{page,setPage}}/>
-      <Footer/>
-    </div>
+      <PageLoader/>
   );
 }
-
-export default App;
