@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Nav from './components/Nav'
+import Nav from './components/Navbar'
 import AboutMe from './components/AboutMe'
 import Projects from './components/Project'
 import Footer from './components/Footer'
