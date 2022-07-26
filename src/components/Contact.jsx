@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { validateEmail } from '../utils/helpers'
+import '../styles/Contact.css'
 
 export default function Contact() {
     const [name, setName] = useState('')
@@ -41,9 +42,9 @@ export default function Contact() {
     }
 
     return(
-        <div className = "contact" id = "contactId">
-        Contact
-            <form className = "contactForm">
+        <div className = "contact">
+        <h1>Contact</h1>
+            <form className = "contact-form">
                 <p>Name</p>
                 <input
                     value={name}
