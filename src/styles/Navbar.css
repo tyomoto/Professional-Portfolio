@@ -15,13 +15,13 @@
 .nav-name {
     justify-self: start;
     margin-left: 20px;
-    color: var(--beige);  
+    color: var(--brightWhite);  
 }
 
 .nav-name a{
     text-decoration: none;
     padding: 0.5rem 1rem;
-    color: var(--beige);
+    color: var(--brightWhite);
     font-size: 2rem;
     background-color: var()
 }
@@ -37,7 +37,7 @@
 }
 
 .nav-anchors-container a {
-    color: var(--beige);
+    color: var(--brightWhite);
     text-decoration: none;
     padding: 0.5rem 1rem;
 }

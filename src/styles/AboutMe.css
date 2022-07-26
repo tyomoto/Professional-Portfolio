@@ -12,6 +12,7 @@
   .aboutMe-container p {
     font-size: 1.5rem;
     line-height: 150%;
+    width: 80%;
   }
 
   .aboutMe-container img {
