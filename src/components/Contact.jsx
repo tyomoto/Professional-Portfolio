@@ -23,7 +23,7 @@ export default function Contact() {
         }
     }
 
-    const handleContactSubmit = (event) => {
+    const handleFormSubmit = (event) => {
         event.preventDefault();
 
         if(!validateEmail(email)){
@@ -41,10 +41,40 @@ export default function Contact() {
     }
 
     return(
-        <div className="">
-
-        </div>
+        <div className = "contact" id = "contactId">
+        Contact
+            <form className = "contactForm">
+                <p>Name</p>
+                <input
+                    value={name}
+                    name="name"
+                    onChange={handleInputChange}
+                    type="text"
+                    placeholder="Your name..."
+                />
+                <p>Email</p>
+                <input
+                    value={email}
+                    name="email"
+                    onChange={handleInputChange}
+                    type="text"
+                    placeholder="Your email..."
+                />
+                <p>Message</p>
+                <input
+                    value={message}
+                    name="message"
+                    onChange={handleInputChange}
+                    type="text"
+                    placeholder="Write me a message..."
+                />
+                <button type="button" onClick={handleFormSubmit}>Send Message</button>
+            </form>
+            {errorCheck && (
+            <div>
+                <p className = "error-text">{errorCheck}</p>
+            </div>
+             )}
+      </div>
     )
-
-
 }
