@@ -1,15 +1,12 @@
-.aboutMe {
+  .aboutMe-container {
+    width: 60%;
+    font-size: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     min-height: 98vh;
-  }
-  
-  .aboutMeContainer {
-    width: 60%;
-    font-size: 3rem;
   }
   
   .aboutMeContainer p {

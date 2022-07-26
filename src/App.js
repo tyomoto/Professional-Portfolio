@@ -1,6 +1,6 @@
 import React from 'react';
 import PageLoader from './pageLoader';
-// import './app.css';
+import './App.css';
 
 export default function App() {
   return (

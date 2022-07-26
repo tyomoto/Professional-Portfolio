@@ -1,11 +1,11 @@
 import React from 'react';
 import profilePic from '../assets/Self-portrait.jpg';
+import "../styles/AboutMe.css"
 
 export default function AboutMe() {
 
     return (
         <div className="aboutMe-container">
-            <h1>Tyler Omoto</h1>
             <img src={profilePic} alt="Tyler"/>
             <p> Hello! My name is Tyler Omoto, currently studying to be a certified full-stack developer with the University of Toronto full-stack coding bootcamp. I am looking to 
                 leverage my 2 years of business/marketing experience to help bridge the gap between consumer/client and the technical side. Through the bootcamp I have learned the fundamentals
