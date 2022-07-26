@@ -1,5 +1,5 @@
   .aboutMe-container {
-    width: 60%;
+    width: 100%;
     font-size: 3rem;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,12 @@
     min-height: 98vh;
   }
   
-  .aboutMeContainer p {
+  .aboutMe-container p {
     font-size: 1.5rem;
-    text-align: left;
+    line-height: 150%;
+  }
+
+  .aboutMe-container img {
+    height: 300px;
+    width: 250px;
   }
