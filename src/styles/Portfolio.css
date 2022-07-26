@@ -1,0 +1,46 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10rem;
+    width: 100%;
+}
+
+.project-card {
+    min-height: 100vh;
+    width: 80vw;
+}
+
+.card-title {
+    font-size: 3rem;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+  
+.card-image {
+    position: relative;
+    width: 45%;  
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+.card-info {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+.image-overlay a{
+    display: flex;
+    line-height: 2rem;
+    text-decoration: none;
+    color: var(--brightwhite);
+  }
+
