@@ -1,0 +1,22 @@
+.footer {
+    position: fixed;
+    display: flex;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    justify-content: center;
+    z-index: 10;
+    background-color: var(--darkGrey);
+  }
+  
+  .footerContainer {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footerContainer p {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
