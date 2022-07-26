@@ -1,4 +1,5 @@
 import React from 'react';
+import { grey } from "@mui/material/colors"
 import BreweryNearMePic from '../assets/BreweryNearMe.png';
 import ExpressMoviesPic from '../assets/ExpressMovies.PNG';
 import EmployeeTrackerPic from '../assets/EmployeeTracker.PNG';
@@ -39,19 +40,27 @@ const projectData = [
 
 function Project(){
     return(
-        <div>
-            <ul className='projects'>
-                <li className= 'project'>
-                    <div className="project-text">
-                        <span className="project-title"></span>
-                        <span className="project-info"></span>
-                        <a href="" className="project-link"></a>
-                        <a href="" className="project-link"></a>
+        <div className = "portfolio">
+            {projectData.map(({title, image, info, repo, deployed}, i) => (
+                <div className="project-card" key = {i}>
+                    <p className="card-title">{title}</p>
+                    <div className="card-content">
+                        <div className="card-image">
+                            <img src={image} alt="project preview" />
+                        </div>
+                        <div className="image-overlay">
+                            <a href={deployed} target = "_blank" rel ="noreferrer">
+                                <OpenInNewIcon sx={{ color: grey["A100"] }} fontSize = "large"/>
+                            </a>
+                            <a href={repo} target = "_blank" rel ="noreferrer">
+                                <GitHubIcon sx={{ color: grey["A100"] }} fontSize = "large"/>
+                            </a>
+                        </div>
                     </div>
-                </li>
-            </ul>
+                    <p className="card-info">{info}</p>
+                </div>
+            ))}
         </div>
-        
     )
 }
 
