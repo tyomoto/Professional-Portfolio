@@ -1,5 +1,5 @@
 .navigation{
-    background-color: var(--darkGrey);
+    background-color: var(--bluegrey);
     top: 0;
     height: 5rem;
     display: flex;
@@ -15,13 +15,13 @@
 .nav-name {
     justify-self: start;
     margin-left: 20px;
-    color: var(--brightWhite);  
+    color: var(--white);  
 }
 
 .nav-name a{
     text-decoration: none;
     padding: 0.5rem 1rem;
-    color: var(--brightWhite);
+    color: var(--white);
     font-size: 2rem;
     background-color: var()
 }
@@ -37,7 +37,7 @@
 }
 
 .nav-anchors-container a {
-    color: var(--brightWhite);
+    color: var(--white);
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -48,7 +48,7 @@
 }
 
 .navigation :hover {
-    background-color: var(--aquaMarine);
+    background-color: var(--Blue);
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }

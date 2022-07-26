@@ -1,14 +1,14 @@
 :root{
-  --brightWhite: #ffffff;
-  --darkGrey: #4d5061;
-  --aquaMarine: #5c80bc;
+  --white: #ffffff;
+  --bluegrey: #4d5061;
+  --Blue: #5c80bc;
   --olive: #3d3b30;
   --beige: #e4d5b7;
 }
 
 
 body{
-  background-color: var(--darkGrey);
-  color: var(--brightWhite);
+  background-color: var(--bluegrey);
+  color: var(--white);
   font-family: 'Montserrat', sans-serif;
 }

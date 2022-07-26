@@ -41,6 +41,6 @@ img {
     display: flex;
     line-height: rem;
     text-decoration: none;
-    color: var(--brightwhite);
+    color: var(--white);
   }
 

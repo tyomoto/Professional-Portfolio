@@ -22,7 +22,7 @@ h4{
 
 .resume-container a {
     text-decoration: none;
-    color: var(--brightWhite);
+    color: var(--white);
 }
 
 .front-end li, .back-end li {
