@@ -1,9 +1,9 @@
 import React from 'react';
 import { grey } from "@mui/material/colors"
 import BreweryNearMePic from '../assets/BreweryNearMe.png';
-import ExpressMoviesPic from '../assets/ExpressMovies.PNG';
-import EmployeeTrackerPic from '../assets/EmployeeTracker.PNG';
-import TeamProfileGeneratorPic from '../assets/TeamProfileGenerator.PNG';
+import ExpressMoviesPic from '../assets/ExpressMovies.png';
+import EmployeeTrackerPic from '../assets/EmployeeTracker.png';
+import TeamProfileGeneratorPic from '../assets/TeamProfileGenerator.png';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
@@ -38,12 +38,13 @@ const projectData = [
     }
 ]
 
-function Project(){
+function Portfolio(){
     return(
+      
         <div className = "portfolio">
             {projectData.map(({title, image, info, repo, deployed}, i) => (
                 <div className="project-card" key = {i}>
-                    <p className="card-title">{title}</p>
+                    <p className="card-title">{title} test</p>
                     <div className="card-content">
                         <div className="card-image">
                             <img src={image} alt="project preview" />
@@ -64,4 +65,4 @@ function Project(){
     )
 }
 
-export default Project
+export default Portfolio

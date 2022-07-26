@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import Nav from './components/Navbar'
 import AboutMe from './components/AboutMe'
-import Projects from './components/Project'
+import Portfolio from './components/Portfolio'
 import Footer from './components/Footer'
 import Resume from './components/Resume'
 import Contact from './components/Contact'
@@ -16,8 +16,8 @@ function PageLoader(){
           if (currentPage === "Contact") {
             return <Contact />;
         }
-          if (currentPage === "Project") {
-            return <Projects />;
+          if (currentPage === "Portfolio") {
+            return <Portfolio />;
         }
           if (currentPage === "Resume") {
             return <Resume />;
