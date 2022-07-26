@@ -9,7 +9,7 @@
 }
 
 .project-card {
-    min-height: 100vh;
+    min-height: 70vh;
     width: 80vw;
 }
 
@@ -39,7 +39,7 @@ img {
 
 .image-overlay a{
     display: flex;
-    line-height: 2rem;
+    line-height: rem;
     text-decoration: none;
     color: var(--brightwhite);
   }
