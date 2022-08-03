@@ -10,6 +10,13 @@ import "../styles/Portfolio.css"
 
 const projectData = [
     {
+        title: 'Stocker',
+        image: TeamProfileGeneratorPic,
+        info: "This project is a Full-Stack inventory management system that integrates seamlessly with a fully functional eCommerce site.",
+        repo: "https://github.com/SuedePritch/furry-leftover-broccoli",
+        deployed:"https://stockerinventory.herokuapp.com/",
+    },
+    {
         title: 'BreweryNearMe',
         image: BreweryNearMePic,
         info: 'This project uses a 3rd party API to search for a Brewery near the users location, their past search history will also be displayed on the left!',
