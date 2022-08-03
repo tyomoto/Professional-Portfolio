@@ -4,6 +4,7 @@ import BreweryNearMePic from '../assets/BreweryNearMe.png';
 import ExpressMoviesPic from '../assets/ExpressMovies.png';
 import EmployeeTrackerPic from '../assets/EmployeeTracker.png';
 import TeamProfileGeneratorPic from '../assets/TeamProfileGenerator.png';
+import StockerPic from '../assets/Stocker.png';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import "../styles/Portfolio.css"
@@ -11,7 +12,7 @@ import "../styles/Portfolio.css"
 const projectData = [
     {
         title: 'Stocker',
-        image: TeamProfileGeneratorPic,
+        image: StockerPic,
         info: "This project is a Full-Stack inventory management system that integrates seamlessly with a fully functional eCommerce site.",
         repo: "https://github.com/SuedePritch/furry-leftover-broccoli",
         deployed:"https://stockerinventory.herokuapp.com/",
