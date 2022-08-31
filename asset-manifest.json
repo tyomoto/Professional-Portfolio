@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/crispy-system/static/css/main.6d708b49.css",
-    "main.js": "/crispy-system/static/js/main.dd8ba63c.js",
-    "static/js/787.61dafdb9.chunk.js": "/crispy-system/static/js/787.61dafdb9.chunk.js",
-    "static/media/ExpressMovies.png": "/crispy-system/static/media/ExpressMovies.ff7c47470b89e335a45e.png",
-    "static/media/BreweryNearMe.png": "/crispy-system/static/media/BreweryNearMe.b0bc6fb122d5df9e39e8.png",
-    "static/media/EmployeeTracker.png": "/crispy-system/static/media/EmployeeTracker.5f3411db88e3bbb6c3f6.png",
-    "static/media/Self-portrait.jpg": "/crispy-system/static/media/Self-portrait.39ff0f1703d81427e325.jpg",
-    "static/media/Stocker.png": "/crispy-system/static/media/Stocker.53e6aa6d1b808308f8de.png",
-    "static/media/TeamProfileGenerator.png": "/crispy-system/static/media/TeamProfileGenerator.1049109113e29adb69db.png",
-    "index.html": "/crispy-system/index.html",
-    "main.6d708b49.css.map": "/crispy-system/static/css/main.6d708b49.css.map",
-    "main.dd8ba63c.js.map": "/crispy-system/static/js/main.dd8ba63c.js.map",
-    "787.61dafdb9.chunk.js.map": "/crispy-system/static/js/787.61dafdb9.chunk.js.map"
+    "main.css": "/Professional-Portfolio/static/css/main.6d708b49.css",
+    "main.js": "/Professional-Portfolio/static/js/main.e078a5e6.js",
+    "static/js/787.61dafdb9.chunk.js": "/Professional-Portfolio/static/js/787.61dafdb9.chunk.js",
+    "static/media/ExpressMovies.png": "/Professional-Portfolio/static/media/ExpressMovies.ff7c47470b89e335a45e.png",
+    "static/media/BreweryNearMe.png": "/Professional-Portfolio/static/media/BreweryNearMe.b0bc6fb122d5df9e39e8.png",
+    "static/media/EmployeeTracker.png": "/Professional-Portfolio/static/media/EmployeeTracker.5f3411db88e3bbb6c3f6.png",
+    "static/media/Self-portrait.jpg": "/Professional-Portfolio/static/media/Self-portrait.39ff0f1703d81427e325.jpg",
+    "static/media/Stocker.png": "/Professional-Portfolio/static/media/Stocker.53e6aa6d1b808308f8de.png",
+    "static/media/TeamProfileGenerator.png": "/Professional-Portfolio/static/media/TeamProfileGenerator.1049109113e29adb69db.png",
+    "index.html": "/Professional-Portfolio/index.html",
+    "main.6d708b49.css.map": "/Professional-Portfolio/static/css/main.6d708b49.css.map",
+    "main.e078a5e6.js.map": "/Professional-Portfolio/static/js/main.e078a5e6.js.map",
+    "787.61dafdb9.chunk.js.map": "/Professional-Portfolio/static/js/787.61dafdb9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d708b49.css",
-    "static/js/main.dd8ba63c.js"
+    "static/js/main.e078a5e6.js"
   ]
 }
